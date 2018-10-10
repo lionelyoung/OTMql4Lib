@@ -18,3 +18,4 @@ void vWarn(string sMess);
 void vInfo(string sMess);
 void vDebug(string sMess);
 void vTrace(string sMess);
+#import

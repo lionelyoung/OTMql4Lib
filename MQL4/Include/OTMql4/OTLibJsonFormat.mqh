@@ -15,3 +15,5 @@ string jOTMarketInformation(string uSymbol);
 string jOTTickInformation(string uSymbol, int iTimeFrame);
 string jOTBarInformation(string uSymbol, int iTimeFrame, int iBar);
 string jOTTimerInformation();
+
+#import

@@ -15,3 +15,5 @@ string zOTLibSimpleFormatBar(string uType, string uChartId, int iIgnore, string 
 string zOTLibSimpleFormatTimer(string uType, string uChartId, int iIgnore, string uMark, string uInfo);
 string zOTLibSimpleFormatTick(string uType, string uChartId, int iIgnore, string uMark, string uInfo);
 string zOTLibSimpleFormatRetval(string uType, string uChartId, int iIgnore, string uMark, string uInfo);
+
+#import
