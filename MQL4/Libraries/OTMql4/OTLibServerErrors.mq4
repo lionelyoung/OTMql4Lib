@@ -31,12 +31,12 @@
 bool bOTLibServerErrorIsContinuable(int iErr) {
      int i;
 
-     i = bOTLibServerErrorType(iErr);
+     i = nOTLibServerErrorType(iErr);
      // Im not really sure what "commonerror" is (OFLIB_OTHER_ERROR)
      return(i == OFLIB_BUSY_ERROR || i == OFLIB_NETWORK_ERROR);
 }
 
-bool bOTLibServerErrorType(int iErr) {
+int nOTLibServerErrorType(int iErr) {
     //  Group the errors returned from trade server
     //  so that we can take action based on classes of errors.
     switch(iErr) {
